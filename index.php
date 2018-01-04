@@ -6,7 +6,8 @@
 			<a>
 				<img class="img-resposive chest anim" src="img/chest.png" width="200px">
 				<h1>The Box</h1>
-				<small>A collab project hub<br>alpha</small>
+				<small>A collab project hub<br></small>
+				<a href="https://github.com/ollieestuff/The-Box">GitHub</a>
 			</a>
 		</div>
 		<div class="col-md-8" style="margin-top: 100px">
