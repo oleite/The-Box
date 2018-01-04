@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto+Condensed');
+
+
+	/*Texto*/
+
+	.rainbow {
+  -webkit-animation: rainbow 3s infinite;
+}
+
+  @-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+	h1#titulo{
+		transition: 1s;
+	}
+
+	h1#titulo:hover {
+		color: orange;
+	}
+
+	h1#titulo:active {
+		color: red;
+	}
+
+	p{
+		font-size: 16;
+	}
+	
+	p#contas{
+		font-size: 20;
+		padding: 8px;
+		margin: 2px;
+	}
+	
+	a#merchan{
+		text-decoration: underline;
+		font-size: 18;
+		color: orange;
+		transition: 0.1s;
+	}
+	a#merchan:active {
+		color: red;
+	}
+	a#merchan:visited {
+		color: #FCA063;
+	}
+	
+	p#nota{
+		font-size: 14;
+		color: #707070;
+	}
+
+	/*Ibagens*/
+
+	/*Geral*/
+
+	body{
+		font-family: 'Roboto Condensed';
+		background-color: #111;
+		color: white;
+	}
+	
+	div#tudo{
+		text-align: center;
+		border-top-style: double;
+		border-left-style: solid;
+		border-right-style: solid;
+		border-bottom-style: double;
+		margin: 0px 200px 0px 200px;
+	}
+
+	div#merchan{
+		text-align: center;
+		border-top-style: double;
+		border-left-style: solid;
+		border-right-style: solid;
+		border-bottom-style: double;
+		margin: 0px 200px 0px 200px;
+	}
+
+	input[type=text]{
+		border: 3px solid #949494;
+		transition: 0.5s;
+	}
+
+	input[type=text]:focus {
+		background-color: orange;
+		border: 3px solid black;
+	}
+
+	input[type=submit]{
+		background-color: orange;
+		border: 1px solid black;
+		font-family: 'Roboto Condensed';
+		font-size: 14;
+		transition: 0.2s;
+	}
+
+	input[type=submit]:active {
+		background-color: red;
+	}
+
+
+	/*Menu*/
+	
+	nav#menu{
+		display: inline;
+	}
+	nav#menu ul{
+		position: relative;
+		text-transform: uppercase;
+		list-style: none;
+	}
+	nav#menu li{
+		background-color: #F0EDEC;
+		display: inline;
+		padding: 5px;
+		margin: 1px;
+		transition: background-color 0.1s;
+	}
+	nav#menu li:hover {
+		background-color: #606060;
+	}
+	nav#menu h1{
+		display: block;
+		font-family: 'Bitter';
+		font-size: 30px;
+	}
+	nav#menu a{
+		color: gray;
+		text-decoration: none;
+		transition: 0.1s;
+	}
+	nav#menu a:hover {
+		color: orange;
+	}
+	nav#menu a:active {
+		color: red;
+	}

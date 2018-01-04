@@ -1,0 +1,82 @@
+body {
+	background-color: #111;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+  outline: 5px solid transparent;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+a, a:link, a:visited {
+	text-decoration: none;
+	color: white;
+	transition: color 0.2s;
+}
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+a:active {
+	color: red;
+	text-decoration: none;
+}
+
+ul {
+	font-size: 21px;
+	list-style-type: none;
+}
+
+small {
+	color: #949494;
+}
+
+.vertical-center {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+#start-menu {
+	margin: 0;
+	background-color: #111;
+	font-family: 'Sumana', serif;
+	color: white;
+}
+#start-menu input {
+	color: black;
+	transition: all 0.2s;
+}
+#start-menu input:focus {
+	outline: 2px solid orange;
+}
+input[type="submit"] {
+	border: none;
+	background-color: white;
+	color: #111;
+	font-size: 20px;
+	transition: all 0.2s;
+}
+input[type="submit"]:hover {
+	background-color: orange;
+	outline: 2px solid orange;
+}
+
+
+
+
+.infhat {
+	background-color: black;
+	padding: 5px;
+}
+.chest, .giftchest {
+	margin-right: 10px;
+}
+
+.fireworks {
+	position: fixed;
+	pointer-events: none;
+}

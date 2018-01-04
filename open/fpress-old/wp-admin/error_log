@@ -1,0 +1,4 @@
+[13-Dec-2017 01:45:10 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[13-Dec-2017 18:54:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gearc172/public_html/memory_box/open/fpress/wp-content/themes/fpress/functions.php on line 32
+[13-Dec-2017 18:54:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gearc172/public_html/memory_box/open/fpress/wp-content/themes/fpress/functions.php on line 32
+[13-Dec-2017 18:54:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gearc172/public_html/memory_box/open/fpress/wp-content/themes/fpress/functions.php on line 32

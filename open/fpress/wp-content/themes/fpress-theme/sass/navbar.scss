@@ -1,0 +1,132 @@
+@import 'variables'; //Variáveis gerais
+
+//----HEADER----//
+.header-container {
+   border-top: 5px solid $red;
+   position: relative;
+   background-color: white;
+}
+.header {
+   position: relative;
+   height: auto;
+   max-width: $max-width;
+
+	margin: 0 auto;
+
+	box-sizing: border-box;
+}
+.header-description {
+	position: relative;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+//--------//
+
+
+.navbar {
+   box-sizing: border-box;
+   display: none;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   background-color: $semi-white1;
+
+   ul {
+      padding: 2px 0;
+      margin: 0;
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      flex-direction: column;
+      li {
+         list-style: none;
+         font-size: 20px;
+         color: #555;
+
+         margin: 2px 5px;
+         background-color: white;
+
+         a {
+            box-sizing: border-box;
+            display: block;
+
+            padding: 5px 5px 10px 20px;
+
+            transition: 0.2s;
+            height: 100%;
+
+            &:hover,
+            &:active {
+               color: $red;
+               border-left: 5px solid $red;
+            }
+         }
+         &.current-menu-item {
+            border-left: 5px solid $red;
+         }
+      }
+   }
+}
+
+.responsive-bar {
+   padding: 10px 0;
+   @include side-padding(20px,10px);
+   box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+@media (min-width: 900px){ //Desktop
+   .header {
+      padding: 10px 0;
+   }
+   .navbar {
+      @include side-padding(20px,10px);
+      display: flex;
+      background-color: rgba(0,0,0,0);
+
+      .brand {
+         display: inline-block;
+      }
+      ul {
+         flex-direction: row;
+
+         li {
+            text-align: center;
+
+            a {
+               padding: 5px 10px;
+               &:hover,
+               &:active {
+                  border: none;
+                  box-shadow: 0 2px 0 $red;
+                  background-color: none;
+               }
+            }
+            &.current-menu-item {
+               border: none;
+               box-shadow: 0 2px 0 $red;
+               background-color: none;
+            }
+         }
+      }
+   }
+   .responsive-bar {
+      display: none;
+   }
+
+}
+
+.brand { //FPress logo = 50x11 aspect ratio
+   display: none;
+   margin: 10px 0;
+}
+.brand-description {
+   color: #555;
+   margin: 0;
+   font-size: 14px;
+}

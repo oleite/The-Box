@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*Menu*/
+
+nav#menu ul{
+	list-style: square;
+}
+h1#menu{
+	font-weight: bold;
+	font-size: 26;
+}
+
+/*Texto*/
+
+p{
+	font-size: 14;
+}
+p#cont{
+	font-size: 18;
+}
+
+/*Ibagens*/
+
+/*Geral*/
+
+body{
+	font-family: Arial;
+}
