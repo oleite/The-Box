@@ -34,23 +34,32 @@ small {
 	color: #949494;
 }
 
+
+
+#wrapper {
+	display: flex;
+}
+
 .vertical-center {
   min-height: 100vh;
 
   display: flex;
   align-items: center;
 }
-#start-menu {
-	margin: 0;
+.start-menu {
+	margin: 0 auto;
+
 	background-color: #111;
 	font-family: 'Sumana', serif;
 	color: white;
 }
-#start-menu input {
+
+
+.start-menu input {
 	color: black;
 	transition: all 0.2s;
 }
-#start-menu input:focus {
+.start-menu input:focus {
 	outline: 2px solid orange;
 }
 input[type="submit"] {
@@ -68,10 +77,6 @@ input[type="submit"]:hover {
 
 
 
-.infhat {
-	background-color: black;
-	padding: 5px;
-}
 .chest, .giftchest {
 	margin-right: 10px;
 }
